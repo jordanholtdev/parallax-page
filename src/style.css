@@ -1,0 +1,278 @@
+/* navBar */
+
+.navbar {
+    top: 0px;
+    background-color: #ffffff;
+}
+
+/* general section styling */
+
+section {
+    position: relative;
+    height: 100vh;
+    display: flex;
+}
+
+/* intro section */
+
+.intro-col {
+    position: relative;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+}
+
+.intro-a {
+    background-color: #34558B;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: left;
+    background-image: url(../src/images/svgs/introBG.svg);
+    left: -1000px;
+}
+
+.icon_arrow {
+    position: absolute;
+    top: 820px;
+}
+
+.fa-long-arrow-alt-down {
+    position: relative;
+    font-size: 2rem;
+    color: white;
+    left: -7px;
+}
+
+/* main title */
+
+.title {
+    margin-top: 2.5rem;
+    z-index: 2;
+}
+
+.display-1 {
+    font-size: 10rem;
+    font-weight: bolder;
+}
+
+.period {
+    color: #34558B;
+}
+
+.bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    color: white;
+    text-shadow: 1px 1px 3px black;
+    z-index: 1;
+    font-size: 3em;
+    font-weight: 400;
+}
+
+/* a section  */
+
+.a {
+    background-image: url(./images/bg03.jpg);
+}
+
+#sectionA div > h2 {
+    position: absolute;
+    top: 350px;
+    font-size: 6em;
+    font-weight: bolder;
+}
+
+/* b section */
+
+.b {
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.945), rgba(153, 153, 153, 0.288)), url(./images/bg07.jpg);
+}
+
+.digital-left {
+    line-height: 3rem;
+}
+
+.digital-left > .header > h2 {
+    font-size: 6em;
+    font-weight: bolder;
+}
+
+.designCard {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(../src/images/svgs/cardCircuitBG.svg);
+}
+
+.webCard {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(../src/images/svgs/cardCircuitBG.svg);
+}
+
+.marketingCard {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(../src/images/svgs/cardCircuitBG.svg);
+}
+
+
+/* c section */
+
+.c {
+    background-image: url(./images/bg04.jpg);
+}
+
+
+/* project section */
+
+.card {
+    background-color: black
+}
+
+.card-content {
+    transition: transform 2s;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+}
+
+.card:hover .card-content {
+    transform: rotateY(180deg);
+}
+
+.card-title {
+    padding-top: 1rem;
+    transform: translateZ(75px);
+    backface-visibility: hidden;
+}
+
+.project01-face {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    backface-visibility: hidden;
+    background-size: cover;
+    background-position: center;
+    background-attachment: local, scroll;
+    background-repeat: no-repeat;
+    background-image: url('./images/project01.jpg');
+}
+
+.project01-back {
+    transform: rotateY(.5turn);
+    backface-visibility: hidden;
+}
+
+.project02-face {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    backface-visibility: hidden;
+    background-size: cover;
+    background-position: center;
+    background-attachment: local, scroll;
+    background-repeat: no-repeat;
+    background-image: url('./images/project02.jpg');
+}
+
+.project02-back {
+    transform: rotateY(.5turn);
+    backface-visibility: hidden;
+}
+
+.project03-face {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    backface-visibility: hidden;
+    background-size: cover;
+    background-position: center;
+    background-attachment: local, scroll;
+    background-repeat: no-repeat;
+    background-image: url('./images/project03.jpg');
+}
+
+.project03-back {
+    transform: rotateY(.5turn);
+    backface-visibility: hidden;
+}
+
+.project04-face {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    backface-visibility: hidden;
+    background-size: cover;
+    background-position: center;
+    background-attachment: local, scroll;
+    background-repeat: no-repeat;
+    background-image: url('./images/project04.jpg');
+}
+
+.project04-back {
+    transform: rotateY(.5turn);
+    backface-visibility: hidden;
+}
+
+li {
+    list-style: none;
+}
+
+
+/* e section  */
+ 
+.e {
+    background-color: white;
+}
+
+/* team profiles */
+
+#profile {
+    opacity: 1;
+}
+
+.profile01 {
+    max-width: 60%;
+    max-height: 60%;
+}
+
+.profile02 {
+    max-width: 60%;
+    max-height: 60%;
+}
+
+.profile03 {
+    max-width: 60%;
+    max-height: 60%;
+}
+
+.about {
+    margin-bottom: 85px;
+}
+
+/* footer styles */
+footer {
+    background-color: #34558B;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: contain;
+    background-image: url(../src/images/svgs/introBG.svg);   
+}
