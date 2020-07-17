@@ -2,9 +2,9 @@
 
 Single agency/creative style page with parallax effect.  
 
-![homepage](../src/images/readme/loadpage.jpg)
+![homepage](./src/images/readme/loadpage.jpg)
 
-![projectpage](../src/images/readme/projectpage.jpg)
+![projectpage](./src/images/readme/projectpage.jpg)
 
 ### Introduction 
 
