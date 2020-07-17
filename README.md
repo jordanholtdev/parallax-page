@@ -2,6 +2,10 @@
 
 Single agency/creative style page with parallax effect.  
 
+![homepage](../src/images/readme/loadpage.jpg)
+
+![projectpage](../src/images/readme/projectpage.jpg)
+
 ### Introduction 
 
 I created this page as a way to become more familiar with the GSAP animation library, specifically the ScrollTrigger plugin. 
